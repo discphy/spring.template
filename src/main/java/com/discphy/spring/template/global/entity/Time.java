@@ -1,4 +1,4 @@
-package com.discphy.openkakao.global.entity;
+package com.discphy.spring.template.global.entity;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

@@ -1,10 +1,10 @@
-package com.discphy.openkakao;
+package com.discphy.spring.template;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OpenKakaoApplicationTests {
+class SpringTemplateApplicationTests {
 
     @Test
     void contextLoads() {

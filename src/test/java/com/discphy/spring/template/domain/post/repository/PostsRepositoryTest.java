@@ -1,6 +1,6 @@
-package com.discphy.openkakao.domain.post.repository;
+package com.discphy.spring.template.domain.post.repository;
 
-import com.discphy.openkakao.domain.post.entity.Posts;
+import com.discphy.spring.template.domain.post.entity.Posts;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

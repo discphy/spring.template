@@ -1,6 +1,6 @@
-package com.discphy.openkakao.domain.post.dto;
+package com.discphy.spring.template.domain.post.dto;
 
-import com.discphy.openkakao.domain.post.entity.Posts;
+import com.discphy.spring.template.domain.post.entity.Posts;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

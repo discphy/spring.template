@@ -1,7 +1,7 @@
-package com.discphy.openkakao.domain.post.controller;
+package com.discphy.spring.template.domain.post.controller;
 
-import com.discphy.openkakao.domain.post.dto.PostsDto;
-import com.discphy.openkakao.domain.post.repository.PostsRepository;
+import com.discphy.spring.template.domain.post.dto.PostsDto;
+import com.discphy.spring.template.domain.post.repository.PostsRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

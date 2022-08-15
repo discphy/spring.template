@@ -1,6 +1,6 @@
-package com.discphy.openkakao.domain.post.entity;
+package com.discphy.spring.template.domain.post.entity;
 
-import com.discphy.openkakao.global.entity.Time;
+import com.discphy.spring.template.global.entity.Time;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.discphy.openkakao.domain.post.controller;
+package com.discphy.spring.template.domain.post.controller;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,4 +1,4 @@
-package com.discphy.openkakao.domain.post.controller;
+package com.discphy.spring.template.domain.post.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
