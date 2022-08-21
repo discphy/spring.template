@@ -29,6 +29,7 @@ class WebControllerTest {
         String body = this.testRestTemplate.getForObject("/", String.class);
 
         //then
+        System.out.println(body);
         assertTrue(body.contains("스프링부트"));
     }
 }
