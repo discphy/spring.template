@@ -11,4 +11,9 @@ public class WebController {
     public String main() {
         return "main";
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "test";
+    }
 }
