@@ -1,7 +1,6 @@
 package com.discphy.spring.template.domain.post.controller;
 
 import com.discphy.spring.template.domain.post.dto.PostsDto;
-import com.discphy.spring.template.domain.post.repository.PostsRepository;
 import com.discphy.spring.template.domain.post.service.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,7 +13,7 @@ public class PostsController {
     private PostsService postsService;
 
     @PostMapping("/posts")
-    public void savePosts(@RequestBody PostsDto dto) {
-        postsService.save(dto);
+    public Long savePosts(@RequestBody PostsDto dto) {
+        return postsService.save(dto);
     }
 }
