@@ -24,7 +24,7 @@ class WebControllerTest {
     }
 
     @Test
-    void 메인페이지_로딩() {
+    void main_load() {
         //when
         String body = this.testRestTemplate.getForObject("/", String.class);
 
