@@ -29,7 +29,7 @@ class PostsRepositoryTest {
     }
 
     @Test
-    void 게시글_저장_불러오기() {
+    void post_save_load() {
         //given
         postsRepository.save(Posts.builder().title("테스트 제목").content("테스트 내용").author("discphy").build());
 
@@ -43,7 +43,7 @@ class PostsRepositoryTest {
     }
 
     @Test
-    void 타임_등록() {
+    void time_register() {
         //given
         LocalDateTime now = LocalDateTime.now();
         postsRepository.save(Posts.builder()
