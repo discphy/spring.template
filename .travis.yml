@@ -14,9 +14,9 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r spring *
+  - zip -r spring-template *
   - mkdir -p deploy
-  - mv spring.zip deploy/spring.zip
+  - mv spring-template.zip deploy/spring-template.zip
 
 deploy:
   - provider: s3
@@ -24,8 +24,10 @@ deploy:
     secret_access_key: $AWS_SECRET_KEY
     bucket: spring-template-deploy
     region: ap-northeast-2
+    skip_cleanup: true
     acl: public_read
     local_dir: deploy
+    wait-until-deployed: true
     on:
       repo: discphy/spring.template
       branch: master
